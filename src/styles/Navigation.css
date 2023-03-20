@@ -1,8 +1,12 @@
-.header {
+.navbar {
     background-color: black;
     color: white;
 }
 
-ul {
+.navbar a {
+    color: white;
+}
+
+.active {
     color: white;
 }
