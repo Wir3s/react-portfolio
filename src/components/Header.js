@@ -1,12 +1,9 @@
 import React from 'react';
-import '../styles/Header.css';
-import Navigation from './Navigation';
 
 function Header() {
     return (
         <header className="header">
-            <h1>Home</h1>
-            <Navigation />
+            <h1>Hi, I'm Andre</h1>
         </header>
     );
 }
