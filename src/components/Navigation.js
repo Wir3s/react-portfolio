@@ -4,18 +4,30 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 
-function Navigation() {
+function Navigation({ currentPage, handlePageChange }) {
   return (
 
-    <Navbar bg="dark" expand="lg" className="nav-style" variant="dark">
+    <Navbar expand="lg" className="nav-style" variant="dark">
     <Container>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto">
-          <Nav.Link href="#home">About Me</Nav.Link>
-          <Nav.Link href="#portfolio">Portfolio</Nav.Link>
-          <Nav.Link href="#contact">Contact</Nav.Link>
-          <Nav.Link href="#resume">Resume</Nav.Link>
+          <Nav.Link href="#about"
+          onClick={() => handlePageChange('About')}
+          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+          >About Me</Nav.Link>
+          <Nav.Link href="#portfolio"
+          onClick={() => handlePageChange('Portfolio')}
+          className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+          >Portfolio</Nav.Link>
+          <Nav.Link href="#contact"
+          onClick={() => handlePageChange('Contact')}
+          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+          >Contact</Nav.Link>
+          <Nav.Link href="#resume"
+          onClick={() => handlePageChange('Resume')}
+          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+          >Resume</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Container>
