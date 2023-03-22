@@ -1,21 +1,30 @@
 import React from 'react';
+import Project from '../Project';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
+const jate = {
+    title: 'JATE',
+   
+};
 
 export default function Portfolio() {
     return (
-        <div>
-            <h1>Portfolio Stuff</h1>
-            <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-            </p>
-        </div>
+        <Container fluid>
+            <h1>Portfolio</h1>
+          <Row>
+            <Col md="6"><Project title={jate.title} /></Col>
+            <Col md="6"><Project /></Col>
+          </Row>
+          <Row>
+            <Col md="6"><Project /></Col>
+            <Col md="6"><Project /></Col>
+          </Row>
+          <Row>
+            <Col md="6"><Project /></Col>
+            <Col md="6"><Project /></Col>
+          </Row>
+        </Container>
     );
 }

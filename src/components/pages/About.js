@@ -7,7 +7,7 @@ const styles = {
   },
   text: {
     position: "absolute",
-    bottom: "150px",
+    bottom: "20px",
     paddingRight: "160px",
     paddingLeft: "40px",
   },
@@ -20,7 +20,7 @@ const styles = {
 export default function About() {
   return (
     <div style={styles.body}>
-      <img src={backgroundimg} style={styles.rimage} width="100%" />
+      <img src={backgroundimg} style={styles.rimage} alt="chilling robot" width="100%" />
       <div style={styles.text}>
         <h2>About Me Page</h2>
         <p>
