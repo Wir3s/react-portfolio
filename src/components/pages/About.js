@@ -1,27 +1,28 @@
 import React from "react";
-import backgroundimg from "./robot-portfolio-pic.png";
+// import backgroundimg from "./robot-portfolio-pic.png";
+import '../../styles/About.css';
 
-const styles = {
-  body: {
-    height: "100vh",
-  },
-  text: {
-    position: "absolute",
-    bottom: "20px",
-    paddingRight: "160px",
-    paddingLeft: "40px",
-  },
+// const styles = {
+//   body: {
+//     height: "100vh",
+//   },
+//   text: {
+//     position: "absolute",
+//     bottom: "20px",
+//     paddingRight: "160px",
+//     paddingLeft: "40px",
+//   },
 //   rimage: {
 //     position: "absolute",
 //     bottom: "100px",
 //   },
-};
+// };
 
 export default function About() {
   return (
-    <div style={styles.body}>
-      <img src={backgroundimg} style={styles.rimage} alt="chilling robot" width="100%" />
-      <div style={styles.text}>
+    <div className = "mainbody">
+      {/* <img src={backgroundimg} style={styles.rimage} alt="chilling robot" width="100%" /> */}
+      <div>
         <h2>About Me Page</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
