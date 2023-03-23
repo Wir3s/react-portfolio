@@ -1,4 +1,4 @@
 .mainbody {
     background-image: url("../components/pages/robot-portfolio-pic.png");
-   
+    background-size: cover;
 }
