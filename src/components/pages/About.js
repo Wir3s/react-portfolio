@@ -3,13 +3,13 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
-
+import myImage from "./robo.png"
 import "../../styles/About.css";
 
-// const styles = {
-//   body: {
-//     height: "100vh",
-//   },
+const styles = {
+  body: {
+    height: "100vh",
+  },
 //   text: {
 //     position: "absolute",
 //     bottom: "20px",
@@ -20,11 +20,11 @@ import "../../styles/About.css";
 //     position: "absolute",
 //     bottom: "100px",
 //   },
-// };
+};
 
 export default function About() {
   return (
-    <Container fluid>
+    <Container fluid style={styles.body}>
       <h2>About Me Page</h2>
       <Row>
         <Col>
@@ -45,7 +45,7 @@ export default function About() {
           </p>
         </Col>
         <Col>
-          <Image src="./robobgsquare.png"></Image>
+          <Image src={myImage} width="200px" />
         </Col>
       </Row>
     </Container>
