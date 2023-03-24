@@ -38,6 +38,15 @@ export default function Contact() {
     setMessage("");
   };
 
+  const handleNull = (e) => {
+    e.preventDefault();
+
+    if (name === null || name === "name") {
+      setErrorMessage("This field is required");
+      return;
+    }
+  };
+
   return (
     <div>
       <h1>Contact</h1>
@@ -46,6 +55,7 @@ export default function Contact() {
           value={name}
           name="name"
           onChange={handleInputChange}
+          onBlur={handleNull}
           type="text"
           placeholder="name"
         />

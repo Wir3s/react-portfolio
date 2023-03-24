@@ -1,6 +1,10 @@
 import React from "react";
-// import backgroundimg from "./robot-portfolio-pic.png";
-import '../../styles/About.css';
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Image from "react-bootstrap/Image";
+
+import "../../styles/About.css";
 
 // const styles = {
 //   body: {
@@ -20,23 +24,30 @@ import '../../styles/About.css';
 
 export default function About() {
   return (
-    <div className = "mainbody">
-      {/* <img src={backgroundimg} style={styles.rimage} alt="chilling robot" width="100%" /> */}
-      <div>
-        <h2>About Me Page</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-          velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia
-          nisi ac dui fermentum, sed luctus urna tincidunt. <br />Etiam ut feugiat ex.
-          Cras non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna
-          imperdiet ac.<br /> Sed nec nulla aliquam, bibendum odio eget, vestibulum
-          tortor. Cras rutrum ligula in tincidunt commodo. Morbi sit amet mollis
-          orci, in tristique ex.<br /> Donec nec ornare elit. Donec blandit est sed
-          risus feugiat porttitor. Vestibulum molestie hendrerit massa non
-          consequat. Vestibulum vitae lorem tortor.<br /> In elementum ultricies
-          tempus. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        </p>
-      </div>
-    </div>
+    <Container fluid>
+      <h2>About Me Page</h2>
+      <Row>
+        <Col>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
+            velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia
+            nisi ac dui fermentum, sed luctus urna tincidunt. <br />
+            Etiam ut feugiat ex. Cras non risus mi. Curabitur mattis rutrum
+            ipsum, ut aliquet urna imperdiet ac.
+            <br /> Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor.
+            Cras rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci,
+            in tristique ex.
+            <br /> Donec nec ornare elit. Donec blandit est sed risus feugiat
+            porttitor. Vestibulum molestie hendrerit massa non consequat.
+            Vestibulum vitae lorem tortor.
+            <br /> In elementum ultricies tempus. Interdum et malesuada fames ac
+            ante ipsum primis in faucibus.
+          </p>
+        </Col>
+        <Col>
+          <Image src="./robobgsquare.png"></Image>
+        </Col>
+      </Row>
+    </Container>
   );
 }

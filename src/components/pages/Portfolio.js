@@ -9,13 +9,17 @@ const jate = {
    
 };
 
+const bReads = {
+    title: 'Better Reads'
+};
+
 export default function Portfolio() {
     return (
         <Container fluid>
             <h1>Portfolio</h1>
           <Row>
             <Col md="6"><Project title={jate.title} /></Col>
-            <Col md="6"><Project /></Col>
+            <Col md="6"><Project title={bReads.title} /></Col>
           </Row>
           <Row>
             <Col md="6"><Project /></Col>
