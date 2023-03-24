@@ -1,6 +1,7 @@
 .mainbody {
-    background-image: url("../components/pages/robot-portfolio-pic.png");
-    /* background-position: top 40px; */
-    background-size: auto;
+    background-image: url("../../public/robobg.png");
+    /* background-position: top 300px; */
+    background-size: contain; 
     background-repeat: no-repeat;
+    height: 500px;
 }
