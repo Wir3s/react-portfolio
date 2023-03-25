@@ -3,8 +3,8 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
-import myImage from "./robo.png"
-import "../../styles/About.css";
+import robImg from "../assets/images/robo.png";
+import "../styles/About.css";
 
 
 
@@ -20,7 +20,7 @@ export default function About() {
           </p>
         </Col>
         <Col>
-          <Image src={myImage} width="260px" />
+          <Image src={robImg} width="260px" />
         </Col>
       </Row>
     </Container>

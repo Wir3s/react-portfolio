@@ -1,13 +1,13 @@
 import React from "react";
-import Project from "../Project";
+import Project from "../components/Project";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import jateImg from "../../assets/images/jateeditor.png";
-import readsImg from "../../assets/images/betterreads.png";
-import teamImg from "../../assets/images/teamgen.png";
-import workImg from "../../assets/images/scheduler.png";
-import eatImg from "../../assets/images/eatdrink.png";
+import jateImg from "../assets/images/jateeditor.png";
+import readsImg from "../assets/images/betterreads.png";
+import teamImg from "../assets/images/teamgen.png";
+import workImg from "../assets/images/scheduler.png";
+import eatImg from "../assets/images/eatdrink.png";
 
 const jate = {
   title: "JATE",

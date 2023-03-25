@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 // import Form from 'react-bootstrap/Form';
-import { validateEmail } from "../../utils/helpers";
-import "../../styles/Contact.css";
+import { validateEmail } from "../utils/helpers";
+import "../styles/Contact.css";
 
 export default function Contact() {
   // Create state variables for form fields, set inital values to empty
