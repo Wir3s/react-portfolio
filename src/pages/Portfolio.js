@@ -6,8 +6,9 @@ import Col from "react-bootstrap/Col";
 import jateImg from "../assets/images/jateeditor.png";
 import readsImg from "../assets/images/betterreads.png";
 import teamImg from "../assets/images/teamgen.png";
-import workImg from "../assets/images/scheduler.png";
+import techImg from "../assets/images/techblog.png";
 import eatImg from "../assets/images/eatdrink.png";
+import apiImg from "../assets/images/socialapi.png";
 
 const jate = {
   title: "JATE",
@@ -23,25 +24,26 @@ const bReads = {
 
 const socialNet = {
   title: "Social Network API",
-  text: "",
+  text: "An API for a social network web application utilizing MongoDB, Express.js and the Mongoose ODM. Users can share thoughts, create a friend list and react to thoughts.",
+  image: apiImg,
 };
 
 const teamProf = {
   title: "Team Profile Generator",
-  text: "",
+  text: "A Node.js command line application using the Inquirer package and Jest tests. The application takes infomration about employees and generates an HTML page.",
   image: teamImg,
 };
 
 const eatDrink = {
   title: "Eat Drink & Be Merry",
-  text: "",
+  text: "Search for food and beverage recipes when you're entertaining dinner guests. Add ingredients directly to a list for easier shopping.",
   image: eatImg,
 };
 
-const workSched = {
-  title: "Workday Scheduler",
-  text: "",
-  image: workImg,
+const techBlog = {
+  title: "Tech Blog",
+  text: "A CMS-style blog app following the MVC paradigm, using Handlebars.js, Sequelize as the ORM, and the express-session npm package for authentication.",
+  image: techImg,
 };
 
 export default function Portfolio() {
@@ -65,7 +67,11 @@ export default function Portfolio() {
           />
         </Col>
         <Col md="6">
-          <Project title={socialNet.title} text={socialNet.text} />
+          <Project
+            title={socialNet.title}
+            text={socialNet.text}
+            image={apiImg}
+          />
         </Col>
       </Row>
       <Row>
@@ -74,9 +80,9 @@ export default function Portfolio() {
         </Col>
         <Col md="6">
           <Project
-            title={workSched.title}
-            text={workSched.text}
-            image={workImg}
+            title={techBlog.title}
+            text={techBlog.text}
+            image={techImg}
           />
         </Col>
       </Row>
