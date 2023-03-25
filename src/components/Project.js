@@ -14,10 +14,8 @@ export default function Project(props) {
         
         <Card.Body>
           <Card.Title>{props.title}</Card.Title>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </Card.Text>
+          <Card.Img variant="top" src={props.image} />
+          <Card.Text>{props.text}</Card.Text>
           <ExternalLink content={"Go Somewhere"} link={"https://www.google.com"}/>
           <Button variant="primary">Go somewhere</Button>
           <CustomButton functionToUse={logAndre} content={"Helloo"} lightTheme={true}/>

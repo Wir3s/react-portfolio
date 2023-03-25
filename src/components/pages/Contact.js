@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-
+// import Form from 'react-bootstrap/Form';
 import { validateEmail } from "../../utils/helpers";
+import "../../styles/Contact.css";
 
 export default function Contact() {
   // Create state variables for form fields, set inital values to empty
@@ -38,14 +39,13 @@ export default function Contact() {
     setMessage("");
   };
 
-  const handleNull = (e) => {
-    e.preventDefault();
-
-    if (name === null || name === "name") {
-      setErrorMessage("This field is required");
-      return;
-    }
-  };
+  // const handleNull = (e) => {
+    
+  //   if (setName(e) === null || name === "name") {
+  //     setErrorMessage("This field is required");
+  //     return;
+  //   }
+  // };
 
   return (
     <div>
@@ -55,7 +55,7 @@ export default function Contact() {
           value={name}
           name="name"
           onChange={handleInputChange}
-          onBlur={handleNull}
+          // onBlur={handleNull}
           type="text"
           placeholder="name"
         />

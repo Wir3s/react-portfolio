@@ -7,7 +7,7 @@ import Navbar from 'react-bootstrap/Navbar';
 function Navigation({ currentPage, handlePageChange }) {
   return (
 
-    <Navbar expand="lg" className="nav-style" variant="dark">
+    <Navbar expand="md" className="nav-style" variant="dark">
     <Container>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">

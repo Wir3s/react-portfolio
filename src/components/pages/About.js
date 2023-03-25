@@ -6,46 +6,21 @@ import Image from "react-bootstrap/Image";
 import myImage from "./robo.png"
 import "../../styles/About.css";
 
-const styles = {
-  body: {
-    height: "100vh",
-  },
-//   text: {
-//     position: "absolute",
-//     bottom: "20px",
-//     paddingRight: "160px",
-//     paddingLeft: "40px",
-//   },
-//   rimage: {
-//     position: "absolute",
-//     bottom: "100px",
-//   },
-};
+
+
 
 export default function About() {
   return (
-    <Container fluid style={styles.body}>
-      <h2>About Me Page</h2>
+    <Container fluid>
+      <h2>About Me</h2>
       <Row>
-        <Col>
+        <Col className="txtcol">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-            velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia
-            nisi ac dui fermentum, sed luctus urna tincidunt. <br />
-            Etiam ut feugiat ex. Cras non risus mi. Curabitur mattis rutrum
-            ipsum, ut aliquet urna imperdiet ac.
-            <br /> Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor.
-            Cras rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci,
-            in tristique ex.
-            <br /> Donec nec ornare elit. Donec blandit est sed risus feugiat
-            porttitor. Vestibulum molestie hendrerit massa non consequat.
-            Vestibulum vitae lorem tortor.
-            <br /> In elementum ultricies tempus. Interdum et malesuada fames ac
-            ante ipsum primis in faucibus.
+          Personable Full-Stack Web Developer with a background in marketing. Passionate about problem-solving while supporting a team. Skills include Javascript, React, Express, jQuery, Node, and Bootstrap combined with diverse marketing experience focused on communication and the customer journey. Excited to bring a love of learning, adapting, and evolving through the continuing adventure.
           </p>
         </Col>
         <Col>
-          <Image src={myImage} width="200px" />
+          <Image src={myImage} width="260px" />
         </Col>
       </Row>
     </Container>
