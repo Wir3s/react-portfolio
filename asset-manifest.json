@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.e85b7ca6.css",
-    "main.js": "/react-portfolio/static/js/main.70934909.js",
+    "main.js": "/react-portfolio/static/js/main.e8fb930c.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/betterreads.png": "/react-portfolio/static/media/betterreads.120782cca7598bdbd0d9.png",
     "static/media/robo.png": "/react-portfolio/static/media/robo.1ab130d505e5fad91687.png",
+    "static/media/socialapi.png": "/react-portfolio/static/media/socialapi.173feea5608388682d1a.png",
+    "static/media/techblog.png": "/react-portfolio/static/media/techblog.04f76559ce98e276514f.png",
     "static/media/eatdrink.png": "/react-portfolio/static/media/eatdrink.8f4375838d85e3806fa0.png",
     "static/media/teamgen.png": "/react-portfolio/static/media/teamgen.e84dbc68e7dc663cd10a.png",
-    "static/media/scheduler.png": "/react-portfolio/static/media/scheduler.73069228d1dbc84e1f83.png",
     "static/media/jateeditor.png": "/react-portfolio/static/media/jateeditor.48fd70189a33d786f28d.png",
     "index.html": "/react-portfolio/index.html",
     "main.e85b7ca6.css.map": "/react-portfolio/static/css/main.e85b7ca6.css.map",
-    "main.70934909.js.map": "/react-portfolio/static/js/main.70934909.js.map",
+    "main.e8fb930c.js.map": "/react-portfolio/static/js/main.e8fb930c.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e85b7ca6.css",
-    "static/js/main.70934909.js"
+    "static/js/main.e8fb930c.js"
   ]
 }
