@@ -16,7 +16,7 @@ export default function Project(props) {
           <Card.Img variant="top" src={props.image} />
           <Card.Text>{props.text}</Card.Text>
            {/* <ExternalLink content={"Go Somewhere"} link={"https://www.google.com"}/> */}
-          <CustomButton href={props.link1} content={"GitHub Repository"} />
+          <CustomButton href={props.link1} content={"GitHub Repository"} role="button" />
           
         </Card.Body>
       </Card>
