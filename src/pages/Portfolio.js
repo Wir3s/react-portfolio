@@ -43,6 +43,7 @@ const eatDrink = {
   text: "Search for food and beverage recipes when you're entertaining dinner guests. Add ingredients directly to a list for easier shopping.",
   image: eatImg,
   link1: "https://github.com/Wir3s/eat-drink-be-merry",
+  link2: "https://wir3s.github.io/eat-drink-be-merry/",
 };
 
 const techBlog = {
@@ -56,16 +57,26 @@ export default function Portfolio() {
   return (
     <Container fluid>
       <h1>Portfolio</h1>
-      <Row className='mt-2'>
-        <Col md="6" className='mt-2'>
-          <Project title={jate.title} text={jate.text} image={jate.image} link1={jate.link1} />
+      <Row className="mt-2">
+        <Col md="6" className="mt-2">
+          <Project
+            title={jate.title}
+            text={jate.text}
+            image={jate.image}
+            link1={jate.link1}
+          />
         </Col>
-        <Col md="6" className='mt-2'>
-          <Project title={bReads.title} text={bReads.text} image={readsImg} link1={bReads.link1} />
+        <Col md="6" className="mt-2">
+          <Project
+            title={bReads.title}
+            text={bReads.text}
+            image={readsImg}
+            link1={bReads.link1}
+          />
         </Col>
       </Row>
-      <Row className='mt-4'>
-        <Col md="6" className='mt-2'>
+      <Row className="mt-4">
+        <Col md="6" className="mt-2">
           <Project
             title={teamProf.title}
             text={teamProf.text}
@@ -73,7 +84,7 @@ export default function Portfolio() {
             link1={teamProf.link1}
           />
         </Col>
-        <Col md="6" className='mt-2'>
+        <Col md="6" className="mt-2">
           <Project
             title={socialNet.title}
             text={socialNet.text}
@@ -82,11 +93,17 @@ export default function Portfolio() {
           />
         </Col>
       </Row>
-      <Row className='mt-4'>
-        <Col md="6" className='mt-2'>
-          <Project title={eatDrink.title} text={eatDrink.text} image={eatImg} link1={eatDrink.link1} />
+      <Row className="mt-4">
+        <Col md="6" className="mt-2">
+          <Project
+            title={eatDrink.title}
+            text={eatDrink.text}
+            image={eatImg}
+            link1={eatDrink.link1}
+            link2={eatDrink.link2}
+          />
         </Col>
-        <Col md="6" className='mt-2'>
+        <Col md="6" className="mt-2">
           <Project
             title={techBlog.title}
             text={techBlog.text}

@@ -3,7 +3,6 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
-// import robImg from "../assets/images/robo.png";
 import dreImg from "../assets/images/andreabout.png";
 import "../styles/About.css";
 import styled, { keyframes } from "styled-components";
