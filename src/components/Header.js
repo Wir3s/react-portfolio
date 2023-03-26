@@ -1,9 +1,10 @@
 import React from 'react';
 
+
 function Header() {
     return (
-        <header className="header">
-            <h1>Hi, I'm Andre</h1>
+        <header>
+
         </header>
     );
 }
