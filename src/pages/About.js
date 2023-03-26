@@ -12,14 +12,12 @@ export default function About() {
     <Container fluid>
       <Row>
         <Col md="6" className="txtcol">
-          
-          
+                    
            <h2> Full-Stack Web Developer</h2><br /> with a background in marketing.
             Passionate about problem-solving while supporting a team. Skills
             include Javascript, React, Express, jQuery, Node, and Bootstrap
             combined with diverse marketing experience focused on communication
-            and the customer journey. Excited to bring a love of learning,
-            adapting, and evolving through the continuing adventure.
+            and the customer journey. 
          
         </Col>
         <Col md="6">

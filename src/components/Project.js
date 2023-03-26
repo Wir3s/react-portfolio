@@ -1,8 +1,7 @@
 import React from 'react';
-// import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-// import { CustomButton } from './Button';
-import Button from 'react-bootstrap/Button';
+import { CustomButton } from './Button';
+// import Button from 'react-bootstrap/Button';
 // import { ExternalLink } from './ExternalLink';
 
 
@@ -17,7 +16,7 @@ export default function Project(props) {
           <Card.Img variant="top" src={props.image} />
           <Card.Text>{props.text}</Card.Text>
            {/* <ExternalLink content={"Go Somewhere"} link={"https://www.google.com"}/> */}
-          <Button variant="primary" href={props.link1}>GitHub Repository</Button>
+          <CustomButton href={props.link1} content={"GitHub Repository"} />
           
         </Card.Body>
       </Card>
