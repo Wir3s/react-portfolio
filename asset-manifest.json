@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.5c1a3e56.css",
-    "main.js": "/react-portfolio/static/js/main.aa7a35fb.js",
+    "main.css": "/react-portfolio/static/css/main.c8116f9b.css",
+    "main.js": "/react-portfolio/static/js/main.136b9252.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/andre_bio_bw.png": "/react-portfolio/static/media/andre_bio_bw.e49ff3b2fbeac8a07a63.png",
     "static/media/betterreads.png": "/react-portfolio/static/media/betterreads.f30326d6af19191e212e.png",
@@ -12,12 +12,12 @@
     "static/media/jateeditor.png": "/react-portfolio/static/media/jateeditor.48fd70189a33d786f28d.png",
     "static/media/andre_bessette_resume2.docx": "/react-portfolio/static/media/andre_bessette_resume2.3ef9a9d58d367d950958.docx",
     "index.html": "/react-portfolio/index.html",
-    "main.5c1a3e56.css.map": "/react-portfolio/static/css/main.5c1a3e56.css.map",
-    "main.aa7a35fb.js.map": "/react-portfolio/static/js/main.aa7a35fb.js.map",
+    "main.c8116f9b.css.map": "/react-portfolio/static/css/main.c8116f9b.css.map",
+    "main.136b9252.js.map": "/react-portfolio/static/js/main.136b9252.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c1a3e56.css",
-    "static/js/main.aa7a35fb.js"
+    "static/css/main.c8116f9b.css",
+    "static/js/main.136b9252.js"
   ]
 }
