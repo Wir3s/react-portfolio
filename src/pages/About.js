@@ -31,7 +31,7 @@ export default function About() {
             experience focused on communication and the customer journey.</p>
           </FadeB>
         </Col>
-        <Col md="6">
+        <Col md="6" className="imgcol">
           <Image fluid src={dreImg2} width="400px" className="bio-img" />
         </Col>
       </Row>

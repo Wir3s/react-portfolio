@@ -5,13 +5,21 @@
     font-size: 1.1em;
 }
 
+.imgcol {
+  overflow: hidden;
+}
+
 .bio-img {
    
     margin-top: 10px;
     position: relative;
     left: 80px;
-
+    overflow: hidden;
     
+}
+
+Container {
+  overflow: hidden;
 }
 
 .robo-img {
