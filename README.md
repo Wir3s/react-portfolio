@@ -19,7 +19,7 @@
   Simply visit https://wir3s.github.io/react-portfolio/ to view the portfolio.
 
   
-  [Screenshot](/src/images/screenshot1.png)
+  [Screenshot](/src/assets/images/screenshot1.png)
 
 ## Contributing
   Any contribution suggestions are welcome.
