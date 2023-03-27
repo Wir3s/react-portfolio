@@ -25,14 +25,17 @@ export default function About() {
           </FadeA>
           <br />
           <FadeB>
-            <p>with a background in marketing. Passionate about problem-solving
-            while supporting a team. Skills include Javascript, React, Express,
-            jQuery, Node, and Bootstrap combined with diverse marketing
-            experience focused on communication and the customer journey.</p>
+            <p>
+              with a background in marketing. Passionate about problem-solving
+              while supporting a team. Skills include Javascript, React,
+              Express, jQuery, Node, and Bootstrap combined with diverse
+              marketing experience focused on communication and the customer
+              journey.
+            </p>
           </FadeB>
         </Col>
         <Col md="6" className="imgcol">
-          <Image fluid src={dreImg2} width="400px" className="bio-img" />
+          <Image fluid src={dreImg2} className="bio-img" />
         </Col>
       </Row>
     </Container>
