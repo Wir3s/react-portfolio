@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.c8116f9b.css",
-    "main.js": "/react-portfolio/static/js/main.136b9252.js",
+    "main.js": "/react-portfolio/static/js/main.d6ec0856.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/andre_bio_bw.png": "/react-portfolio/static/media/andre_bio_bw.e49ff3b2fbeac8a07a63.png",
     "static/media/betterreads.png": "/react-portfolio/static/media/betterreads.f30326d6af19191e212e.png",
     "static/media/socialapi.png": "/react-portfolio/static/media/socialapi.6f5faa515afc96a25e2f.png",
     "static/media/eatdrink.png": "/react-portfolio/static/media/eatdrink.86bdcf7e977dfc5b75b1.png",
-    "static/media/techblog.png": "/react-portfolio/static/media/techblog.9ff31a6b5044a3aa3803.png",
+    "static/media/taskmaster.png": "/react-portfolio/static/media/taskmaster.d9b754e0a36ea20160f2.png",
     "static/media/teamgen.png": "/react-portfolio/static/media/teamgen.f424cc5aae231fcf5fbd.png",
     "static/media/jateeditor.png": "/react-portfolio/static/media/jateeditor.48fd70189a33d786f28d.png",
     "static/media/andre_bessette_resume2.docx": "/react-portfolio/static/media/andre_bessette_resume2.3ef9a9d58d367d950958.docx",
     "index.html": "/react-portfolio/index.html",
     "main.c8116f9b.css.map": "/react-portfolio/static/css/main.c8116f9b.css.map",
-    "main.136b9252.js.map": "/react-portfolio/static/js/main.136b9252.js.map",
+    "main.d6ec0856.js.map": "/react-portfolio/static/js/main.d6ec0856.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c8116f9b.css",
-    "static/js/main.136b9252.js"
+    "static/js/main.d6ec0856.js"
   ]
 }
