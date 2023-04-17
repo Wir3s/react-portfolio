@@ -6,7 +6,7 @@ import Col from "react-bootstrap/Col";
 import jateImg from "../assets/images/jateeditor.png";
 import readsImg from "../assets/images/betterreads.png";
 import teamImg from "../assets/images/teamgen.png";
-import techImg from "../assets/images/techblog.png";
+import taskImg from "../assets/images/taskmaster.png";
 import eatImg from "../assets/images/eatdrink.png";
 import apiImg from "../assets/images/socialapi.png";
 
@@ -46,11 +46,13 @@ const eatDrink = {
   link2: "https://wir3s.github.io/eat-drink-be-merry/",
 };
 
-const techBlog = {
-  title: "Tech Blog",
-  text: "A CMS-style blog app following the MVC paradigm, using Handlebars.js, Sequelize as the ORM, and the express-session npm package for authentication.",
-  image: techImg,
-  link1: "https://github.com/Wir3s/tech-blog",
+
+const taskMaster = {
+  title: "TaskMaster",
+  text: "A task organizer, with lists and tasks to help you organize your life and productivity. Built using the MERN stack, GraphQL and Material UI",
+  image: taskImg,
+  link1: "https://github.com/Wir3s/taskmaster",
+  link2: "https://sal-task-master.herokuapp.com/",
 };
 
 export default function Portfolio() {
@@ -60,10 +62,11 @@ export default function Portfolio() {
       <Row className="mt-2">
         <Col md="6" className="mt-2">
           <Project
-            title={jate.title}
-            text={jate.text}
-            image={jate.image}
-            link1={jate.link1}
+            title={taskMaster.title}
+            text={taskMaster.text}
+            image={taskMaster.image}
+            link1={taskMaster.link1}
+            link2={taskMaster.link2}
           />
         </Col>
         <Col md="6" className="mt-2">
@@ -105,10 +108,10 @@ export default function Portfolio() {
         </Col>
         <Col md="6" className="mt-2">
           <Project
-            title={techBlog.title}
-            text={techBlog.text}
-            image={techImg}
-            link1={techBlog.link1}
+            title={jate.title}
+            text={jate.text}
+            image={jate.image}
+            link1={jate.link1}
           />
         </Col>
       </Row>
