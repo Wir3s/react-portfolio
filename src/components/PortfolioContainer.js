@@ -5,6 +5,7 @@ import Contact from "../pages/Contact";
 import Portfolio from "../pages/Portfolio";
 import Resume from "../pages/Resume";
 import { PageWrapper } from "./PageWrapper";
+import { Routes, Route } from 'react-router-dom';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("About");
@@ -30,7 +31,15 @@ export default function PortfolioContainer() {
         currentPage={currentPage}
         handlePageChange={handlePageChange}
       />
-      <PageWrapper>{renderPage()}</PageWrapper>
+      <PageWrapper>
+      <Routes>
+          <Route path="/" element={<About />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/resume" element={<Resume />} />
+        </Routes>
+      </PageWrapper>
     </div>
   );
 }
