@@ -3,7 +3,7 @@ import myResume from "../assets/andre_bessette_resume2.docx";
 
 const styles = {
   divStyle: {
-    height: "400px",
+    height: "600px",
     listStyleType: "none",
   },
   ul: {
@@ -27,6 +27,7 @@ export default function Resume() {
         <li>GraphQL</li>
         <li>NodeJS</li>
         <li>RESTful API</li>
+        <li>Agile Development</li>
       </ul>
     </div>
   );
