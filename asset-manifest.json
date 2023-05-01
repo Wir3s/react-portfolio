@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.fde77211.css",
-    "main.js": "/react-portfolio/static/js/main.ee570f4e.js",
+    "main.js": "/react-portfolio/static/js/main.1ffc0844.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/andre_bio_bw.png": "/react-portfolio/static/media/andre_bio_bw.e49ff3b2fbeac8a07a63.png",
     "static/media/betterreads.png": "/react-portfolio/static/media/betterreads.f30326d6af19191e212e.png",
@@ -13,11 +13,11 @@
     "static/media/andre_bessette_resume2.docx": "/react-portfolio/static/media/andre_bessette_resume2.3ef9a9d58d367d950958.docx",
     "index.html": "/react-portfolio/index.html",
     "main.fde77211.css.map": "/react-portfolio/static/css/main.fde77211.css.map",
-    "main.ee570f4e.js.map": "/react-portfolio/static/js/main.ee570f4e.js.map",
+    "main.1ffc0844.js.map": "/react-portfolio/static/js/main.1ffc0844.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fde77211.css",
-    "static/js/main.ee570f4e.js"
+    "static/js/main.1ffc0844.js"
   ]
 }
