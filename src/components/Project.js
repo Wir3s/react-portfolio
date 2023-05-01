@@ -14,11 +14,12 @@ export default function Project(props) {
           content={"GitHub Repository"}
           role="button"
         />
+        {props.link2 && (
         <CustomButton
           href={props.link2}
           content={"Deployed App"}
           role="button"
-        />
+        />)}
       </Card.Body>
     </Card>
   );

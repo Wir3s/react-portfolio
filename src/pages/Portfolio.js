@@ -14,7 +14,8 @@ const jate = {
   title: "JATE",
   text: "A progressive web application (PWA) that can be installed, works offline, and utilizes Babel and Workbox. It automatically saves text when the DOM window is unfocused.",
   image: jateImg,
-  link1: "https://github.com/Wir3s/better_reads",
+  link1: "https://github.com/Wir3s/progressive-text-editor",
+  link2: "https://warm-badlands-75057.herokuapp.com/",
 };
 
 const bReads = {
@@ -22,6 +23,7 @@ const bReads = {
   text: "Create an account to keep up with your favorite authors and books. Search for books and save your favorites, utilizing the Google Books API.",
   image: readsImg,
   link1: "https://github.com/Wir3s/better_reads",
+  link2: "https://better-readss.herokuapp.com/login",
 };
 
 const socialNet = {
@@ -45,7 +47,6 @@ const eatDrink = {
   link1: "https://github.com/Wir3s/eat-drink-be-merry",
   link2: "https://wir3s.github.io/eat-drink-be-merry/",
 };
-
 
 const taskMaster = {
   title: "TaskMaster",
