@@ -8,6 +8,7 @@ const styles = {
   },
   ul: {
     listStyleType: "none",
+    paddingLeft: '0px',
   },
 };
 
