@@ -76,6 +76,7 @@ export default function Portfolio() {
             text={bReads.text}
             image={readsImg}
             link1={bReads.link1}
+            link2={bReads.link2}
           />
         </Col>
       </Row>
@@ -113,6 +114,7 @@ export default function Portfolio() {
             text={jate.text}
             image={jate.image}
             link1={jate.link1}
+            link2={jate.link2}
           />
         </Col>
       </Row>
