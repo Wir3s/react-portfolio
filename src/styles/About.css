@@ -5,6 +5,10 @@
     font-size: 1.1em;
 }
 
+.txtcol h1 {
+  font-size: 3.0em;
+}
+
 .imgcol {
   display: flex;
   justify-content: flex-end;
@@ -17,6 +21,8 @@
 .bio-img {
    
     margin-top: 10px;
+    width: 60%;
+    height: auto;
     /* position: relative;
     left: 80px;
     overflow: hidden; */
@@ -30,17 +36,20 @@
 @media only screen and (min-width: 600px) {
     .bio-img {
       left: 110px;
+      width: 80%;
     }
   }
 
 @media only screen and (min-width: 1000px) {
     .bio-img {
       left: 140px;
+      width: 60%;
     }
   }
 
   @media only screen and (min-width: 1200px) {
     .bio-img {
       left: 200px;
+      width: 60%;
     }
   }

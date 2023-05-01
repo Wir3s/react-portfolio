@@ -26,10 +26,9 @@ export default function About() {
           <br />
           <FadeB>
             <p>
-              with a background in marketing. Passionate about problem-solving
-              while supporting a team. Skills include Javascript, React,
+              Passionate about problem-solving and working as a team. Skills include Javascript, React,
               Express, jQuery, Node, and Bootstrap combined with diverse
-              marketing experience focused on communication and the customer
+              marketing experience focused on the customer
               journey.
             </p>
           </FadeB>
