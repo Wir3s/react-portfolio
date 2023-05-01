@@ -26,8 +26,8 @@ export default function About() {
           <br />
           <FadeB>
             <p>
-              Passionate about problem-solving and working as a team. Skills include Javascript, React,
-              Express, jQuery, Node, and Bootstrap combined with diverse
+              Passionate about problem-solving and working as a team. Skills include React, MongoDB, GraphQL,
+              Express, mySQL, jQuery, Node.js, and Bootstrap combined with diverse
               marketing experience focused on the customer
               journey.
             </p>
