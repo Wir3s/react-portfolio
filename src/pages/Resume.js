@@ -1,5 +1,5 @@
 import React from "react";
-import myResume from "../assets/andre_bessette_resume2.docx";
+import myResume from "../assets/andre_bessette_resume.docx";
 
 const styles = {
   divStyle: {
@@ -8,7 +8,7 @@ const styles = {
   },
   ul: {
     listStyleType: "none",
-    paddingLeft: '0px',
+    paddingLeft: "0px",
   },
 };
 
