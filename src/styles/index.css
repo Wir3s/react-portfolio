@@ -28,3 +28,7 @@ code {
 body > #root > div {
   height: 100vh;
 }
+
+h1 {
+  padding-bottom: 40px;
+}

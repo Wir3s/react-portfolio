@@ -9,6 +9,7 @@ import teamImg from "../assets/images/teamgen.png";
 import taskImg from "../assets/images/taskmaster.png";
 import eatImg from "../assets/images/eatdrink.png";
 import apiImg from "../assets/images/socialapi.png";
+import "../styles/Portfolio.css"
 
 const jate = {
   title: "JATE",
@@ -58,7 +59,7 @@ const taskMaster = {
 
 export default function Portfolio() {
   return (
-    <Container fluid>
+    <Container fluid className="portfolio-container">
       <h1>Portfolio</h1>
       <Row className="mt-2">
         <Col md="6" className="mt-2">

@@ -9,6 +9,8 @@
   font-size: 3.0em;
 }
 
+
+
 .imgcol {
   display: flex;
   justify-content: flex-end;
@@ -21,11 +23,8 @@
 .bio-img {
    
     margin-top: 10px;
-    width: 60%;
     height: auto;
-    /* position: relative;
-    left: 80px;
-    overflow: hidden; */
+    object-fit: cover;
     
 }
 
@@ -33,7 +32,7 @@
     position: right;
 }
 
-@media only screen and (min-width: 600px) {
+/* @media only screen and (min-width: 600px) {
     .bio-img {
       left: 110px;
       width: 80%;
@@ -52,4 +51,4 @@
       left: 200px;
       width: 60%;
     }
-  }
+  } */

@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
-import dreImg2 from "../assets/images/andre_bio_bw.png";
+import dreImg2 from "../assets/images/headshot1.jpg";
 import "../styles/About.css";
 import styled, { keyframes } from "styled-components";
 import { fadeIn } from "react-animations";
