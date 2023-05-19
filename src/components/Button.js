@@ -1,18 +1,20 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
-export function CustomButton (props){
-
-const Button = styled.button`
-background-color: steelblue;
-  color: white;
-  font-size: 1em;
-  margin: 1em;
-  padding: 0.25em 1em;
-  border: 2px solid darkblue;
-  border-radius: 3px;
-`;
-    const { href, content } = props
-    return(
-       <a href={href}> <Button>{content}</Button></a>
-    )
+export function CustomButton(props) {
+  const Button = styled.button`
+    background-color: steelblue;
+    color: white;
+    font-size: 1em;
+    margin: 1em;
+    padding: 0.25em 1em;
+    border: 2px solid darkblue;
+    border-radius: 3px;
+  `;
+  const { href, content } = props;
+  return (
+    <a href={href} className="portbutton">
+      {" "}
+      <Button>{content}</Button>
+    </a>
+  );
 }

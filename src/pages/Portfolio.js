@@ -9,7 +9,7 @@ import teamImg from "../assets/images/teamgen.png";
 import taskImg from "../assets/images/taskmaster.png";
 import eatImg from "../assets/images/eatdrink.png";
 import apiImg from "../assets/images/socialapi.png";
-import "../styles/Portfolio.css"
+import "../styles/Portfolio.css";
 
 const jate = {
   title: "JATE",
