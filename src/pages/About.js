@@ -26,15 +26,13 @@ export default function About() {
           <br />
           <FadeB>
             <p>
-              I am passionate about problem-solving, web development and
-              supporting a team. My web development skills include React,
-              MongoDB, GraphQL, Express, SQL and Node.js.
+              I am passionate about web development, problem solving, and helping businesses connect with their customers.
+              Available to update your website or create a new website for your business.
+              I can optimize your website for SEO and engagement.
               <br />
               <br />I have a diverse background in marketing focused on
               communication and the customer journey and I am proficient in CRM, the Adobe Suite,
-              MailChimp, and WordPress.
-              <br /><br />
-              My current work in IT focuses on PCI compliance, database management and support.
+              MailChimp, WordPress, and WIX.
             </p>
           </FadeB>
         </Col>
