@@ -26,10 +26,15 @@ export default function About() {
           <br />
           <FadeB>
             <p>
-              Passionate about problem-solving and working as a team. Skills include React, MongoDB, GraphQL,
-              Express, mySQL, jQuery, Node.js, and Bootstrap combined with diverse
-              marketing experience focused on the customer
-              journey.
+              I am passionate about problem-solving, web development and
+              supporting a team. My web development skills include React,
+              MongoDB, GraphQL, Express, SQL and Node.js.
+              <br />
+              <br />I have a diverse background in marketing focused on
+              communication and the customer journey and I am proficient in CRM, the Adobe Suite,
+              MailChimp, and WordPress.
+              <br /><br />
+              My current work in IT focuses on PCI compliance, database management and support.
             </p>
           </FadeB>
         </Col>

@@ -1,5 +1,5 @@
 import React from "react";
-import myResume from "../assets/andre_bessette_resume.docx";
+import myResume from "../assets/andre_bessette_resume.pdf";
 
 const styles = {
   divStyle: {
@@ -17,7 +17,7 @@ export default function Resume() {
     <div style={styles.divStyle}>
       <h1>Resume</h1>
       <p>
-        <a href={myResume} download="andre_bessette_resume2.docx">
+        <a href={myResume} download="andre_bessette_resume.pdf">
           Click here to download my resume.
         </a>
       </p>
