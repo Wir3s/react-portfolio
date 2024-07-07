@@ -26,13 +26,16 @@ export default function About() {
           <br />
           <FadeB>
             <p>
-              I am passionate about web development, problem solving, and helping businesses connect with their customers.
-              Available to update your website or create a new website for your business.
-              I can optimize your website for SEO and engagement.
+              I am passionate about web development, problem solving, and
+              helping businesses connect with their customers. Based in
+              Stillwater, Minnesota in the midwest of the United States, I am
+              available to update your website or create a new website for your
+              business wherever you are located. I offer services for optimizing
+              your website for SEO and engagement as well.
               <br />
               <br />I have a diverse background in marketing focused on
-              communication and the customer journey and I am proficient in CRM, the Adobe Suite,
-              MailChimp, WordPress, and WIX.
+              communication and the customer journey and I am proficient in CRM,
+              the Adobe Suite, MailChimp, WordPress, and WIX.
             </p>
           </FadeB>
         </Col>
