@@ -4,25 +4,39 @@ import teamImg from "../assets/images/teamgen.png";
 import taskImg from "../assets/images/taskmaster.png";
 import eatImg from "../assets/images/eatdrink.png";
 import apiImg from "../assets/images/socialapi.png";
+import poweruppizza from "../assets/images/poweruppizza.png";
+import serenesoulImg from "../assets/images/serenesoulmassage.png";
+import marsroverImg from "../assets/images/marsrover.png";
+import astroaiImg from "../assets/images/astroai.png";
 
 const projects = [
   {
     category: "Websites",
-    title: "Simple Website 1",
-    text: "A simple website built with HTML and CSS.",
+    title: "SereneSoul Massage",
+    text: "Website for a massage business",
+    image: serenesoulImg,
     link: "https://www.wir3s.com/simple_website_1",
   },
   {
     category: "Websites",
-    title: "Simple Website 2",
-    text: "Another simple website built with HTML and CSS.",
+    title: "Power-Up Pizzeria",
+    text: "Website for a pizza restaurant",
+    image: poweruppizza,
     link: "https://www.wir3s.com/simple_website_2",
   },
   {
     category: "Current Projects",
     title: "Mars Rover App",
     text: "A fun little app that displays photos taken by the Mars Rovers using NASA's API.",
-    link: "https://your-vercel-project-url.vercel.app",
+    image: marsroverImg,
+    link: "https://mars-viewer.vercel.app/",
+  },
+  {
+    category: "Current Projects",
+    title: "AstroAI",
+    text: "A horoscope app with AI integration",
+    image: astroaiImg,
+    link: "https://astro-ai-rho.vercel.app/",
   },
   {
     category: "Older Projects",

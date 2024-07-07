@@ -12,8 +12,12 @@ export function CustomButton(props) {
   `;
   const { href, content } = props;
   return (
-    <a href={href} className="portbutton">
-      {" "}
+    <a
+      href={href}
+      className="portbutton"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       <Button>{content}</Button>
     </a>
   );
