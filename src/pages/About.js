@@ -8,11 +8,15 @@ import "../styles/About.css";
 import styled, { keyframes } from "styled-components";
 import { fadeIn } from "react-animations";
 
+const fadeInKeyframes = keyframes`${fadeIn}`;
+
 const FadeA = styled.div`
-  animation: 8s ${keyframes`${fadeIn}`};
+  animation: 4s ${fadeInKeyframes} ease-in;
+  color: #ffffff;
 `;
 const FadeB = styled.div`
-  animation: 12s ${keyframes`${fadeIn}`};
+  animation: 6s ${fadeInKeyframes} ease-in;
+  color: #ffffff;
 `;
 
 export default function About() {
@@ -40,7 +44,12 @@ export default function About() {
           </FadeB>
         </Col>
         <Col md="6" className="imgcol">
-          <Image fluid src={dreImg2} className="bio-img" />
+          <Image
+            fluid
+            src={dreImg2}
+            className="bio-img"
+            alt="Photo of Andre Bessette"
+          />
         </Col>
       </Row>
     </Container>

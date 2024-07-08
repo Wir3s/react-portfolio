@@ -1,5 +1,4 @@
 .txtcol {
-
     padding-top: 60px;
     text-align: left;
     font-size: 1.1em;
@@ -7,6 +6,8 @@
 
 .txtcol h1 {
   font-size: 2.6em;
+  color: #ffffff;
+  background-color: #000000;
 }
 
 

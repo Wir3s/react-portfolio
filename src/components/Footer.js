@@ -9,9 +9,16 @@ function Footer() {
   return (
     <div className="footer fixed-bottom">
       <a href="https://github.com/Wir3s/">
-      <Image src={gitLogo} width="40px" className="logo" /></a>
+        <Image src={gitLogo} width="40px" className="logo" alt="github logo" />
+      </a>
       <a href="https://www.linkedin.com/in/andre-bessette/">
-      <Image src={linkLogo} width="40px" className="logo" /></a>
+        <Image
+          src={linkLogo}
+          width="40px"
+          className="logo"
+          alt="linkedin logo"
+        />
+      </a>
       {/* <a href="https://stackoverflow.com/users/19980512/andre-bessette">
       <Image src={SoLogo} width="40px" className="logo" /></a> */}
     </div>
