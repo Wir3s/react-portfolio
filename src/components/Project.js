@@ -22,14 +22,14 @@ export default function Project({
           <CustomButton href={link} content={"View Project"} role="button" />
         )}
         {link1 && (
+          <CustomButton href={link1} content={"Deployed App"} role="button" />
+        )}
+        {link2 && (
           <CustomButton
-            href={link1}
+            href={link2}
             content={"GitHub Repository"}
             role="button"
           />
-        )}
-        {link2 && (
-          <CustomButton href={link2} content={"Deployed App"} role="button" />
         )}
       </Card.Body>
     </Card>

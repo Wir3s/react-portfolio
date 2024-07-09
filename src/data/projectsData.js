@@ -31,8 +31,8 @@ const projects = [
     title: "Mars Rover App",
     text: "A fun little app that displays photos taken by the Mars Rovers using NASA's API.",
     image: marsroverImg,
-    link2: "https://mars-viewer.vercel.app/",
-    link1: "https://github.com/Wir3s/mars_viewer",
+    link1: "https://mars-viewer.vercel.app/",
+    link2: "https://github.com/Wir3s/mars_viewer",
     alt: "Screenshot of Mars Rover App",
   },
   {
@@ -40,8 +40,8 @@ const projects = [
     title: "AstroAI",
     text: "A horoscope app with AI integration",
     image: astroaiImg,
-    link2: "https://astro-ai-rho.vercel.app/",
-    link1: "https://github.com/Wir3s/astro_ai",
+    link1: "https://astro-ai-rho.vercel.app/",
+    link2: "https://github.com/Wir3s/astro_ai",
     alt: "Screenshot of AstroAI app",
   },
   {
@@ -49,8 +49,8 @@ const projects = [
     title: "TaskMaster",
     text: "A task organizer, with lists and tasks to help you organize your life and productivity. Built using the MERN stack, GraphQL and Material UI",
     image: taskImg,
-    link1: "https://github.com/Wir3s/taskmaster",
-    link2: "https://sal-task-master.herokuapp.com/",
+    link2: "https://github.com/Wir3s/taskmaster",
+    link1: "https://sal-task-master.herokuapp.com/",
     alt: "Screenshot of TaskMaster app",
   },
   {
