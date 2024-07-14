@@ -12,11 +12,20 @@ export default function Project({
   link2,
   link,
 }) {
+  const imageLink = link1 || link || null;
+
   return (
     <Card style={{ color: "black" }}>
       <Card.Body>
         <Card.Title>{title}</Card.Title>
-        {image && <Card.Img variant="top" src={image} alt={alt} />}
+        {image &&
+          (imageLink ? (
+            <a href={imageLink} target="_blank" rel="noopener noreferrer">
+              <Card.Img variant="top" src={image} alt={alt} />
+            </a>
+          ) : (
+            <Card.Img variant="top" src={image} alt={alt} />
+          ))}
         <Card.Text>{text}</Card.Text>
         {link && (
           <CustomButton href={link} content={"View Project"} role="button" />

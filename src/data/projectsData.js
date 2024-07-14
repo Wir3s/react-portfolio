@@ -29,7 +29,7 @@ const projects = [
   {
     category: "Current Projects",
     title: "Mars Rover App",
-    text: "A fun little app that displays photos taken by the Mars Rovers using NASA's API.",
+    text: "Displays photos taken by the Mars Rovers using NASA's API.",
     image: marsroverImg,
     link1: "https://mars-viewer.vercel.app/",
     link2: "https://github.com/Wir3s/mars_viewer",
